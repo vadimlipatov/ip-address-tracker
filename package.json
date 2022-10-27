@@ -5,8 +5,8 @@
   "source": "./index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "start": "npx parcel index.html --open",
-    "build": "npx parcel build index.html",
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html",
     "predeploy": "npm run build",
     "deploy": "versel --prod"
   },

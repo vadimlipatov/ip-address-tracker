@@ -11,7 +11,7 @@ ipInput.addEventListener("keydown", handleKey);
 
 const ipInfo = document.querySelector("#ip");
 const locationInfo = document.querySelector("#location");
-const timezone = document.querySelector("#timezone");
+const timezoneInfo = document.querySelector("#timezone");
 const ispInfo = document.querySelector("#isp");
 
 //Work with Maps
@@ -41,7 +41,7 @@ function setInfo(mapData) {
   console.log(mapData);
   ipInfo.innerText = ip;
   locationInfo.innerText = `${city}, ${region}, ${country}`;
-  timezone.innerText = timezone;
+  timezoneInfo.innerText = timezone;
   ispInfo.innerText = isp;
 
   map.setView([lat, lng]);
