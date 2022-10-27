@@ -15,8 +15,6 @@
 .DS_Store
 
 # Parsel
-dist/
-build/
 .parcel-cache/
 
 node_modules/
